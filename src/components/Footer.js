@@ -2,13 +2,11 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer className='navbar bg-dark'>
-            <div className='container-fluid'>
-                <div className='mx-auto'>
-                    <p className='m-0 text-light'>
-                        &copy; EStore {new Date().getFullYear()}
-                    </p>
-                </div>
+        <footer className="bg-dark text-light">
+            <div className="container d-flex flex-column">
+                <small className="text-center my-3">
+                    &copy; Devwares, 2023. All rights reserved.
+                </small>
             </div>
         </footer>
     )

@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Home from '../components/Home'
 import Logout from '../components/Logout'
+import ProductDetails from '../components/ProductDetails'
 
 function Routers() {
     return (
@@ -13,6 +14,7 @@ function Routers() {
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/logout' element={<Logout />} />
+                    <Route path='/product/:id' element={<ProductDetails />} />
                 </Routes>
                 <Footer />
             </Router>
